@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: I18n Example Plugin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/i18n-example\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-05-05T02:27:45+00:00\n"
+"PO-Revision-Date: 2019-05-04 22:33-0400\n"
+"Language: sk\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Domain: i18n-example\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+
+#. Plugin Name of the plugin
+msgid "I18n Example Plugin"
+msgstr "I18n Príklad Plugin"
+
+#. Description of the plugin
+msgid "An example plugin to demo how to do internationalization in a WordPress plugin."
+msgstr "Príklad plugin pre demo, ako urobiť internacionalizáciu vo WordPress pluginu."
+
+#. Author of the plugin
+msgid "David Wood"
+msgstr "Dávid Drévo"
+
+#. Author URI of the plugin
+msgid "https://davidwood.ninja/"
+msgstr "https://davidwood.ninja/"
+
+#: i18n-example.php:32
+#: i18n-example.php:44
+msgid "I18n Example"
+msgstr "I18n Príklad"
+
+#: i18n-example.php:48
+#: i18n-example.js:6
+msgid "You're a silly monkey"
+msgstr "Ty si šiši opica"
+
+#. translators: %d is the users age.
+#: i18n-example.php:54
+#: i18n-example.js:7
+msgid "I am %d years old"
+msgstr "Mám %d rokov"
+
+#: i18n-example.php:60
+msgctxt "noun"
+msgid "Post"
+msgstr "Články"
+
+#: i18n-example.php:61
+#: i18n-example.js:8
+msgctxt "verb"
+msgid "Post"
+msgstr "Predložiť"
+
+#: i18n-example.php:69
+#: i18n-example.php:83
+#: i18n-example.php:97
+#: i18n-example.js:9
+#: i18n-example.js:10
+#: i18n-example.js:11
+msgid "I have %s book"
+msgid_plural "I have %s books"
+msgstr[0] "Mám %d kniha"
+msgstr[1] "Máme %d knihy"
+msgstr[2] "Máme %d kníh"
