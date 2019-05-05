@@ -86,7 +86,7 @@ function exampleAdminPage() {
 			foreach ( $numberList as $number ) {
 				printf(
 					translate_nooped_plural( $bookMessage, $number, 'i18n-example' ),
-					$number
+					number_format_i18n( $number )
 				);
 				// Output a line break.
 				echo '<br/>';
